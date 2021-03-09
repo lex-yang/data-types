@@ -2,10 +2,15 @@
   "name": "@yanglex/data-types",
   "version": "1.0.0",
   "description": "Data Types of WaDA Framework.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
   "author": "Lex Yang",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs"
+  },
   "devDependencies": {
     "ts-node": "^9.1.1",
     "tslint": "^6.1.3",

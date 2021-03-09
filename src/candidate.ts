@@ -1,4 +1,4 @@
-import { IRedisConverter } from '@yanglex/data-connector/Redis';
+import { IRedisConverter } from '@yanglex/data-connector/src/Redis_impl';
 import { Stock } from './stock';
 
 export class Candidate extends Stock {

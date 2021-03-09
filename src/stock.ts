@@ -1,4 +1,4 @@
-import { IRedisConverter } from '@yanglex/data-connector/Redis';
+import { IRedisConverter } from '@yanglex/data-connector';
 
 export class Stock {
 	id: string;
